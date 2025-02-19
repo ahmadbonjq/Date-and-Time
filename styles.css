@@ -1,0 +1,67 @@
+/* Basic Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up the page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the time display */
+.container {
+    text-align: center;
+    background-color: #333;
+    padding: 50px 80px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the heading */
+h1 {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Styling for the time and date display */
+.timeDate_display {
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+}
+/* Styling for the button */
+input{
+    color: white;
+    background-color: #444;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+label{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#DateFormat{
+    color: white;
+    margin: 10px;
+    background-color: #444;
+}
+ */

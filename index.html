@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Current Time and Date</h1>
+        <input type="button" onclick="Type_12Function()"  id="Tyoe_12" value="format 12">
+        <input type="button" onclick="Type_24Function()"  id="Tyoe_24" value="format 24">
+        <div id="time" class="timeDate_display"></div>
+        <label for="cars">Choose a date format:</label>
+            <select  id="DateFormat">
+            <option id="selection1" >YYYY/MM/DD</option>
+            <option id="selection2">MM/DD/YYYY</option>
+            <option id="selection3">DD/MM/YYYY</option>
+            </select>
+        <div id="date" class="timeDate_display"></div>
+    </div>
+    
+    <script src="JS.js"></script>
+</body>
+</html>
